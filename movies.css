@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+}
+
+.weather-app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+}
+
+.weather-info {
+    position: relative;
+    width: 60%;
+    height: 80vh;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    background-image: url(./images/pexels-alessandro-kelvin-1248577-2376268.jpg);
+    background-size: cover;
+}
+
+/* .weather-info .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.7;
+} */
+
+.temp-location {
+    position: relative;
+    z-index: 2;
+}
+
+.temp {
+    font-size: 72px;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.weather-description {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.weather-details {
+    padding: 20px;
+    width: 40%;
+    background-color: #0288d1;
+    color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px 15px;
+    background-color: white;
+    color: #0288d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-meta ul {
+    list-style: none;
+}
+
+.weather-meta li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.weather-meta span {
+    font-weight: bold;
+}
