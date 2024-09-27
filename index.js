@@ -1,7 +1,8 @@
-
-// WeatherStack API details
+//My WeatherStack API 
 const apiKey = "374dd1d3bac9bf73075bc172265d3294";
 const baseUrl = 'http://api.weatherstack.com/current';
+
+//2dcfa874c794489cfc0be208fec2d611 /new api key to be used
 
 // Fetch weather data based on the city
 async function getWeather(city) {
