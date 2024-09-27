@@ -9,13 +9,16 @@ body {
   background-color: #477575;
 }
 
+/*//2dcfa874c794489cfc0be208fec2d611 /new api key to be used
+//374dd1d3bac9bf73075bc172265d3294 old API*/
+
 .weather-app {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 350vw;
   max-width: 1000px;
-  margin: 60px auto;
+  margin: 40px auto;
   border-radius: 10px;
   overflow: hidden;
   background: #26505e;
