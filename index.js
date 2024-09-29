@@ -3,7 +3,7 @@ const header = document.getElementById("navbar");
 header.innerHTML = "WEATHER.NOW";
 header.style.color = "white";
 header.style.fontSize = "1.8rem";
-header.style.backgroundColor = "aqua";
+header.style.backgroundColor = "cadetBlue";
 header.style.textAlign = "center";
 header.style.boxShadow = "2px 2px 5px black";
 header.style.textShadow = "2px 2px 5px black";
@@ -12,14 +12,15 @@ header.style.fontFamily = "verdana";
 function changeText(id) {
   id.innerHTML =
     " WEATHER.NOW provides accurate and up-to-date weather information for cities around the globe.";
-  header.style.color = "gray";
-  header.style.fontSize = "1.1rem";
+  header.style.color = "black";
+  header.style.fontSize = "1.4rem";
   header.style.textShadow = "none";
   header.style.fontFamily = "'Montserrat', sans-serif";
 }
 
 // My WeatherStack API
-const apiKey = "374dd1d3bac9bf73075bc172265d3294";
+const apiKey = "2dcfa874c794489cfc0be208fec2d611";
+// const apiKey ="374dd1d3bac9bf73075bc172265d3294";
 const baseUrl = "http://api.weatherstack.com/current";
 
 // Fetch weather data based on the city
